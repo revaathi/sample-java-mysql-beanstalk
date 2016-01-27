@@ -5,7 +5,8 @@ jdk:
    - openjdk7  
    - openjdk6
    - oraclejdk8
-
+services:
+   - mysql
 env:
   global:
     - AWSAccessKeyId=AKIAJJL2U6T3F3Y5JIGA
