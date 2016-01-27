@@ -35,3 +35,4 @@ after_success:
   - git add -f META-INF WEB-INF
   - git commit -m "Deploy"
   - eb init && eb deploy
+  
